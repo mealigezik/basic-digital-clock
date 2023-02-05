@@ -1,22 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #container{
     min-height: 100vh;
-    position: relative;
     background-color: black;
+    margin: auto;
 }
 #clock{
+    margin: auto;
     text-align: center;
     font-size: 5rem;
     background-color: #333333;
-    color: #31a5cb;
-    /* color: #fff; */
+    color: rgb(255, 225, 0);
     width: 40vw;
-    /* min-width: 40vw; */
-    padding: 10px;
+    min-width: 350px;
+    padding: 2rem;
     border-radius: 10px;
     position: absolute;
-    top: 50%;
+    top: 50vh;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    border-radius: 5rem;
 }
