@@ -23,6 +23,7 @@
     top: 50vh;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* ortalama */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5rem;
 }
